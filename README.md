@@ -10,78 +10,78 @@ This course is designed to build foundations for predictive modeling. Many avail
 In short, this course offers to close the gap between learnings and practicing. 
 
 ## chapter 1: set up
-### Setting up vscode(local dev) /python / github(code repo)
+ Setting up vscode(local dev) /python / github(code repo)
 ...
-### Building data set needed for modeling
+ Building data set needed for modeling
 ...
 
 ## chapter 2: what's predictive modeling
-### a. definition: find signal to some `future' outcome. Key is future.
+ a. definition: find signal to some `future' outcome. Key is future.
 ...
-### b. a time series example for a single entity such a stock ticker
+ b. a time series example for a single entity such a stock ticker
 ...
-### c. multiple time series (identical independent distributed entities) example
+ c. multiple time series (identical independent distributed entities) example
 ...
-### d. what does the usual y=f(x) setup entail?
+ d. what does the usual y=f(x) setup entail?
 ...
-### e. t is everything: difference amongst y_t+1 = f(x_t) vs y_t =f(x_t) vs y_t = f_t(x_t) 
+ e. t is everything: difference amongst y_t+1 = f(x_t) vs y_t =f(x_t) vs y_t = f_t(x_t) 
 ...
-### f. causality vs statistical relationship. Only certain statistical relationship will be considered 'predictive'
+ f. causality vs statistical relationship. Only certain statistical relationship will be considered 'predictive'
 ...
 
 ## chapter 3: common predictive model setup --- gain intuition through penciled examples
-### a. OLS
+ a. OLS
 ...
-### b. simple regression
+ b. simple regression
 ...
-### c. logistic regression
+ c. logistic regression
 ...
-### d. simple tree
+ d. simple tree
 ...
-### e. network 
+ e. network 
 ...
 
 ## chapter 4: building models
-### a. design x, y, splits (train, validation, test sets)
+ a. design x, y, splits (train, validation, test sets)
 ...
-### b. feature engineering
+ b. feature engineering
 ... 
-### c. feature selection
+ c. feature selection
 ...
-### d. model selection
+ d. model selection
 ...
-### e. score cards and model objects
+ e. score cards and model objects
 ...
 
 ## chapter 5: evaluating model
-### a. predictive power metrics
+ a. predictive power metrics
 ...
-### b. cross time validation
+ b. cross time validation
 ...
-### c. bias-variance tradeoff 
+ c. bias-variance tradeoff 
 ...
-### d. underfitting/overfitting
+ d. underfitting/overfitting
 ...
-### e. leaking
+ e. leaking
 ...
 
 ## chapter 6: deployment -- batch or near real time
-### a. using score cards with database 
+ a. using score cards with database 
 ...
-### b. using model object with python
+ b. using model object with python
 ...
-### c. end point using sagemaker
+ c. end point using sagemaker
 ...
 
 ## chapter 7: deep dive into some key issues on these predictive models
-### a. skewed data in y
+ a. skewed data in y
 ...
-### b. skewed data in x
+ b. skewed data in x
 ...
-### c. boosting vs bootstrapping
+ c. boosting vs bootstrapping
 ...
-### d. drifting and time travel
+ d. drifting and time travel
 ...
-### e. incrementality or controlable model impact
+ e. incrementality or controlable model impact
 ...
-### f. cicd 
+ f. cicd 
